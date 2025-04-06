@@ -120,6 +120,7 @@ public class DeviceService {
                 responseWrapper.setMessage("Device Id not found");
                 responseWrapper.setData(null);
             }
+
             return responseWrapper;
         } catch (Exception e) {
             return internalServerMessage();
