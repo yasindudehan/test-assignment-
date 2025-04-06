@@ -15,7 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class DeviceService {
 
-
+  //devices same as in memory database
     private static final Map<Integer, Device> devices  = new ConcurrentHashMap<>();
 
     public ResponseWrapper<List<Device>> getAllDevices() {
